@@ -134,6 +134,41 @@
   
 </section>
 
+<br>
+
+<section class="columns is-centered has-text-centered section hero is-light">
+  <h2 class="title is-3">Novel View Synthesis on 4D Scene</h2>
+  <div class="video-grid-two-cols">
+    <div>
+        <video class="carousel-video" controls muted loop playsinline data-src="static/videos/carturn_4d_record.mp4" type="video/mp4">
+        </video>
+        <!-- <p style="text-align: center;">Optimization process of frames (Moving area is masked)</p> -->
+      </div>
+      <div>
+        <video class="carousel-video" controls muted loop playsinline data-src="static/videos/cows_4d_record.mp4" type="video/mp4">
+        </video>
+        <!-- <p style="text-align: center;">Optimization process of Gaussian centers</p> -->
+      </div>
+  </div>
+</section>
+
+<div class="columns is-centered has-text-centered section hero">
+  <h2 class="title is-3">Optimization Process</h2>
+  <div class="video-grid-two-cols">
+    <div>
+        <video class="carousel-video" controls muted loop playsinline data-src="static/videos/blackswan/sequence_optimize.mp4" type="video/mp4">
+        </video>
+        <p style="text-align: center;">Optimization process of frames (<b>Moving area is masked</b>)</p>
+      </div>
+      <div>
+        <video class="carousel-video" controls muted loop playsinline data-src="static/videos/blackswan/sequence_center_optimize.mp4" type="video/mp4">
+        </video>
+        <p style="text-align: center;">Optimization process of Gaussian centers</p>
+      </div>
+  </div>
+</div>
+
+
 
 <script>
   window.onload = function() {
@@ -219,18 +254,7 @@
     </div>
     <br>
   </div>
-  <div class="video-grid-two-cols">
-      <div>
-          <video class="carousel-video" controls muted loop playsinline data-src="static/videos/blackswan/sequence_optimize.mp4" type="video/mp4">
-          </video>
-          <p style="text-align: center;">Optimization process of frames (Still part is masked)</p>
-        </div>
-        <div>
-          <video class="carousel-video" controls muted loop playsinline data-src="static/videos/blackswan/sequence_center_optimize.mp4" type="video/mp4">
-          </video>
-          <p style="text-align: center;">Optimization process of centers</p>
-        </div>
-  </div>
+
 </section>
 
 
@@ -269,7 +293,7 @@
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-grey/sequence_traj_upon.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-gray/sequence_traj_upon.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -323,7 +347,7 @@
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-grey/sequence_center.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-gray/sequence_center.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
@@ -382,33 +406,33 @@
       <div class="carousel-extra-padding">
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/bmx-bumps/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/bmx-bumps/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/rollerblade/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/rollerblade/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/car-roundabout/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/car-roundabout/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/train/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/train/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/e-bike/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/e-bike/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item">
-            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-grey/sequence_move_seg.mp4" type="video/mp4">
+            <video class="carousel-video" controls muted loop playsinline height="100%" data-src="./static/videos/scooter-gray/sequence_move_seg_overlay.mp4" type="video/mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
-  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">Video object segmentation</p>
+  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">Moving area segmentation in video</p>
   </div>
 </section>
 <br>
